@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>rectangle</title>
+	<link rel="stylesheet" type="text/css" href="rect.css">
+</head>
+<body>
+ 	<div class="fash" id="rect">
+ 	
+ 	</div>
+ 	<button onclick="aug();">Augmenter hauteur</button>
+ 	<button onclick="coul();">change couleur vert</button>
+ 	<button onclick="back();">retour initial</button>
+ 	<button onclick="dispa();">disparition rectangle</button>
+ 	<button onclick="apparai();">reapparaitre rectangle</button>
+ 	
+
+ 	<script type="text/javascript">
+ 		function aug()
+ 		{
+ 			var rectangle=document.getElementById('rect');
+ 			rectangle.style.height= "110px";
+ 		}
+ 		function coul()
+ 		{
+ 			var rectangle=document.getElementById('rect');
+ 			rectangle.style.backgroundColor= "green";
+ 		}
+ 		function back()
+ 		{
+ 			var rectangle=document.getElementById('rect');
+ 			rectangle.style.backgroundColor= "blue";
+ 		}
+ 		function dispa()
+ 		{
+ 			var rectangle=document.getElementById('rect');
+ 			rectangle.style.visibility= "hidden";
+ 		}
+ 		function apparai()
+ 		{
+ 			var rectangle=document.getElementById('rect');
+ 			rectangle.style.visibility= "visible";
+ 		}
+ 	</script>
+</body>
+</html>
